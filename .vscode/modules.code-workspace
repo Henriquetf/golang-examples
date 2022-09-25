@@ -1,10 +1,19 @@
 {
 	"folders": [
 		{
-			"path": "../02-modules/hello"
+			"path": "../02-modules"
 		},
-		{
-			"path": "../02-modules/greetings"
-		}
 	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch Package",
+				"type": "go",
+				"request": "launch",
+				"mode": "auto",
+				"program": "${fileDirname}"
+			}
+		]
+	}
 }
