@@ -5,6 +5,7 @@ import (
 	"log"
 
 	"octopus/greetings"
+	"octopus/stringutil"
 )
 
 func main() {
@@ -20,4 +21,7 @@ func main() {
 	}
 
 	fmt.Println(message)
+
+	messageUpper := stringutil.ToUpper(fmt.Sprint(message))
+	fmt.Println("Upper: " + messageUpper)
 }
