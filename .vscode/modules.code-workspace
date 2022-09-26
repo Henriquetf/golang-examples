@@ -3,6 +3,9 @@
 		{
 			"path": "../02-modules"
 		},
+		{
+			"path": "../03-gin"
+		},
 	],
 	"launch": {
 		"version": "0.2.0",
